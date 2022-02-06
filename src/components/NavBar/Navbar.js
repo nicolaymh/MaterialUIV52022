@@ -30,10 +30,10 @@ const Navbar = () => {
     };
 
     return (
-        <AppBar
+        <Box
             elevation={0}
             color='secondary'
-            sx={{ backgroundColor: 'white' }}
+            sx={{ backgroundColor: 'white', marginBottom: '90px' }}
         >
             <Toolbar>
                 <Box
@@ -42,13 +42,14 @@ const Navbar = () => {
                         justifyContent: 'space-around',
                         alignItems: 'center',
                         width: '100%',
+                        padding: '15px 0px',
                     }}
                     component='div'
                 >
                     {/* Logo */}
                     <Box>
                         <IconButton>
-                            <LocalMallIcon />
+                            <LocalMallIcon sx={{ fontSize: '2.4rem' }} />
                         </IconButton>
                     </Box>
 
@@ -157,7 +158,7 @@ const Navbar = () => {
                     </Box>
                 </Box>
             </Toolbar>
-        </AppBar>
+        </Box>
     );
 };
 

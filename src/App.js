@@ -1,10 +1,12 @@
-import { Button } from '@mui/material';
+import Header from './components/Header/Header';
 import Navbar from './components/NavBar/Navbar';
 
 const App = () => {
     return (
         <>
             <Navbar />
+
+            <Header />
         </>
     );
 };
