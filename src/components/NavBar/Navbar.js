@@ -30,11 +30,7 @@ const Navbar = () => {
     };
 
     return (
-        <Box
-            elevation={0}
-            color='secondary'
-            sx={{ backgroundColor: 'white', marginBottom: '90px' }}
-        >
+        <Box elevation={0} color='secondary' sx={{ backgroundColor: 'white' }}>
             <Toolbar>
                 <Box
                     sx={{
@@ -42,7 +38,7 @@ const Navbar = () => {
                         justifyContent: 'space-around',
                         alignItems: 'center',
                         width: '100%',
-                        padding: '15px 0px',
+                        padding: '10px 0px',
                     }}
                     component='div'
                 >
